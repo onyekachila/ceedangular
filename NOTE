@@ -1,0 +1,17 @@
+craeted a new angular app
+imported materialize css and jquery
+created sign up component and shared folder for services then created a user services
+I am using a template driven form so I brought in imported FormsModule from angular/form
+
+/* Adding validate class to our from materialize already helps us with the functionality
+   of the commented code below. However if we are using bootrap we write the code below to
+   achieve the same thing.
+*/
+
+/* input.ng-invalid.ng-dirty{
+  border-bottom-color : #e91e63 !important;
+  box-shadow: 0 1px 0 0 #e91e63 !important;
+} */
+
+
+Next we disable to button sumbit when the form is not valid.
